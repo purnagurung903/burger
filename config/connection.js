@@ -6,7 +6,7 @@ const mysql = require("mysql");
 //   connection = mysql.createConnection(process.env.JAWSDB_URL)
 // }
 // else {
-  const connection = mysql.connection({
+  const connection = mysql.createConnection({
     host: "localhost",
     port: 3360,
     user: "root",
