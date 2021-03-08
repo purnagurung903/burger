@@ -4,7 +4,7 @@ Burger app allows user to add burger they want to eat and they can store them by
 
 Technology use: Node.js, JavaScript, express.handlebars, MySQL, Heroku, JawsDB, express, and a homemade ORM
 
-GitHub Repo:
+GitHub Repo: https://github.com/purnagurung903/burger.git
 
 Deployed app:
 
