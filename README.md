@@ -1,4 +1,6 @@
 # Burger
+<img width="1440" alt="Screen Shot 2021-03-08 at 3 03 55 PM" src="https://user-images.githubusercontent.com/69695368/110375158-92ca3900-801f-11eb-88e4-81b7bd262b95.png">
+
 ## DESCRIPTION
 Burger app allows user to add burger they want to eat and they can store them by either devoured or by devour later.It uses the MVC framework and uses Mysql for database and deployed on heroku.
 
