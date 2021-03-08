@@ -1,0 +1,43 @@
+<h1>Eat The Burger</h1>
+
+<div class ="burgerform">
+  <h2>Add a Burger</h2>
+  <form id="create-form">
+    <div class = "form-group">
+      <label for = "ca"></label>
+      <textarea type = "text" id ="ca" name = "name" placeholder="Enter the name of burger you want to eat"></textarea>
+    </div>
+
+    <div class = "form-group">
+      <input type = "radio" class = "choice" name = "devoured" value = "1" id = "devoured"> Devour Now<br>
+      <input type = "radio" class = "choice" name="devour" value = "0" id = "devour"> Devour Later 
+    </div>
+    <button class ="submit" id = "submit" type = "submit">Add Burger</button>
+  </form>
+</div>
+
+<div class = "image">
+  <img class = "burgerimage" src="burger.png" alt="burger">
+</div>
+
+<div class = "burgerlist">
+  <div class = "laterburger">
+    <ul class = "list">
+      {{#each burger}}
+      {{#unless devoured}}
+      {{> burger-block devoured=false}}
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="devouredburger">
+    <ul class = "list">
+      {{#each burger}}
+      {{#if devoured}}
+      {{> burger-block devoured=true}}
+      {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+</div>

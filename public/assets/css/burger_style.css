@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  font-family: 'Reggae One', cursive;
+  background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX30190273.jpg");
+  
+}
+
+h1 {
+  color: white
+}
+
+h2 {
+  color: white
+}
+
+.laterburger {
+  width: 50%;
+  float: left;
+}
+
+.devouredburger {
+  width: 50%;
+  float: left;
+}
+
+.burgerform {
+  float: none;
+  width: 100%;
+}
+
+.burgerimage {
+  width: 50%
+}
+
+.burgerslot {
+  border: 1px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: white;
+  height: 50px;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: space-between;
+}
+
+.burgerlist {
+  margin-bottom: 200px;
+}
+
+.delete-burger {
+  background-color: lightslategrey;
+  border: 1px;
+  border-radius: 4px;
+  font-family: 'Reggae One', cursive;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.change-devour {
+  background-color: lightslategrey;
+  border: 1px;
+  border-radius: 4px;
+  font-family: 'Reggae One', cursive;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.list {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+textarea {
+  width: 40%
+}
+
+.submit {
+  background-color: white;
+  border: 1px;
+  border-radius: 4px;
+  font-family: 'Reggae One', cursive;
+  width: 30%;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
