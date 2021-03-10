@@ -8,7 +8,7 @@ Technology use: Node.js, JavaScript, express.handlebars, MySQL, Heroku, JawsDB, 
 
 GitHub Repo: https://github.com/purnagurung903/burger.git
 
-Deployed app:
+Deployed app: https://arcane-shelf-93832.herokuapp.com/
 
 ## TABLE OF CONTENTS
 * [Requirements](#REQUIREMENTS)
